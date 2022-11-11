@@ -24,7 +24,7 @@ f
 
 
 
-## We first a Voronoi tesselation of the space
+## We first create a Voronoi tesselation of the space
 Here, each cell corresponds to a point in the original plot. 
 Each cell color shows the line associated with that color. 
 

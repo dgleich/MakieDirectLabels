@@ -47,8 +47,8 @@ f
 To find this, we use the set of adjacency information from the Delaunay graph,
 and remove any edge that crosses between regions. We also want to remove
 the smallest group of edges. We take a quantilelevel to determine
-a threshold for "small" area. This is set to 50% or the median
-by default. 
+a threshold for "small" area. This is set to 60% or just a bit 
+larger than the median. 
 ```julia
 edges = _filter_edges!(edges, groups, tess; quantilelevel=0.6) # forward quantilelevel
 
