@@ -4,9 +4,6 @@ The ideas here are heavily, heavily inspired by
 
 ## Setup julia
 
-![](doc/label-explainer_1_1.png)
-
-
 
 
 

@@ -25,9 +25,9 @@ lines!(f.axis, cumsum(randn(100)), label="Labels",
   color=Cycled(2))
 lines!(f.axis, cumsum(randn(100)), label="Are Great",
   color=Cycled(3))
-  lines!(f.axis, cumsum(randn(100)), label="Are Great",
+lines!(f.axis, cumsum(randn(100)), label="Are Great",
   color=Cycled(4))
-  lines!(f.axis, cumsum(randn(100)), label="Are Great",
+lines!(f.axis, cumsum(randn(100)), label="Are Great",
   color=Cycled(5))
 
 voronoi_labels(f::Makie.FigureAxisPlot, 

@@ -8,9 +8,8 @@ The ideas here are heavily, heavily inspired by
 using Revise
 using VoronoiCells, CairoMakie, GeometryBasics, Statistics, LinearAlgebra
 include("voronoi-labels.jl")
+nothing # hide output
 ```
-
-
 
 ## We start with a plot
 ```julia
