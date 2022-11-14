@@ -9,7 +9,7 @@
 
 ## # regarding 
 # we need to edit it a little bit to try out a new idea.
-using Revise
+#using Revise
 
 # This package is really helpful for the Voronoi cells 
 # https://github.com/JuliaGeometry/VoronoiCells.jl
@@ -204,6 +204,7 @@ function voronoi_labels!(ax::Makie.Axis; offset=0.5, quantilelevel=0.6,
   return rval
 end 
 
+# Goal, get the bounding box of a label. 
 function _bbox(tt::Makie.MakieCore.Text)
   refpt=tt.converted[1][][]
   gc = tt.plots[1][1][][]
