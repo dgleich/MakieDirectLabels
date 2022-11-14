@@ -30,9 +30,6 @@ lines!(f.axis, cumsum(randn(100)), label="Are Great",
 lines!(f.axis, cumsum(randn(100)), label="Are Great",
   color=Cycled(5))
 
-voronoi_labels(f::Makie.FigureAxisPlot, 
-  args...; kwargs...) = voronoi_labels(f.axis)
-
 function _getpts(plt::Makie.Scatter)
   Point{2,Float32}.(plt[1][])
 end 
