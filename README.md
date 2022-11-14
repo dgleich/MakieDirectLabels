@@ -58,3 +58,18 @@ are too many issues that are going to come up.
 to optimize placement nearby selected points. 
 
 
+Vision
+-------
+R has a similar package: <https://tdhock.github.io/directlabels/docs/index.html>
+
+* `tail_labels!()` # automatically labels the "tail" of the plot like on our world in data.
+    - <https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2020-03-01..latest&facet=none&pickerSort=asc&pickerMetric=location&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=USA~GBR~CAN~DEU~ITA~IND>
+    - <https://github.com/nschloe/matplotx> where they are called `line_labels`
+    - I've seen this done in R, but can't find the package now. 
+
+
+* `direct_labels!()` # find a good place to label each line (what the current voronoi labels does)
+
+* `inline_labels!()` # like the python example... https://github.com/cphyc/matplotlib-label-lines
+
+The idea is to make adding even easier than a legend! 
